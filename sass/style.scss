@@ -37,8 +37,6 @@ body {
     list-style-type: none;
     color: #fff;
     text-align: right;
-    margin: 12px 0 12px 0;
-    padding: 0 24px;
 }
 
 .splash li {
@@ -46,7 +44,6 @@ body {
     position: relative;
     color: #fff;
     text-align: right;
-    margin: 12px 0 12px 0;
     padding: 0 24px;
 }
 
@@ -56,12 +53,13 @@ body {
     font-weight: bold;
 }
 
-.nav-title {
+div .nav-title {
     font-family: 'Open Sans', sans-serif;
     color: rgb(240, 198, 11);
     font-weight: bold;
-    padding: 24px;
+    font-size: larger;
     text-align: left;
+    padding-left: 180px;
 }
 
 .page-title {
@@ -156,12 +154,11 @@ body {
     height: 100%;
     flex: 0 0 33.333%;
     margin: 12px 0 12px 0;
-    padding: 0 12px;
     display: inline-block;
 }
 
 .project-image {
-    max-width: 395px;
+    max-width: 400px;
     height: 100%;
 }
 
@@ -173,9 +170,9 @@ body {
 /*Footer */
 
 .footer ul {
-    text-align: center;
     list-style-type: none;
     display: inline-block;
+    margin-right: 300px;
 }
 
 .footer li {
@@ -196,6 +193,5 @@ body {
 
 .footer p {
     text-align: left;
-    margin-top: 96px;
-    margin-left: 48px;
+    padding-right: 96px;
 }

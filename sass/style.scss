@@ -41,6 +41,7 @@ body {
     list-style-type: none;
     color: #fff;
     text-align: right;
+    justify-content: flex-end;
     padding-top: 20px;
     padding-left: 300px;
 }
@@ -64,6 +65,7 @@ div .nav-title {
     font-weight: bold;
     font-size: larger;
     text-align: left;
+    justify-content: flex-start;
     padding-top: 30px;
     padding-left: 200px;
 }

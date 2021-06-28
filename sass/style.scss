@@ -33,15 +33,20 @@ body {
     transform: translate(-50%,-50%);
 }
 
+.splash-wrapper {
+    display: flex;
+}
+
 .splash ul {
     list-style-type: none;
     color: #fff;
     text-align: right;
+    padding-top: 20px;
+    padding-left: 300px;
 }
 
 .splash li {
-    display: inline-block;
-    position: relative;
+    display: inline;
     color: #fff;
     text-align: right;
     padding: 0 24px;
@@ -59,7 +64,8 @@ div .nav-title {
     font-weight: bold;
     font-size: larger;
     text-align: left;
-    padding-left: 180px;
+    padding-top: 30px;
+    padding-left: 200px;
 }
 
 .page-title {

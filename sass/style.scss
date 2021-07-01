@@ -203,3 +203,25 @@ div .nav-title {
     text-align: left;
     padding-right: 96px;
 }
+
+/* Media */
+
+@media (max-width: 767px) {
+
+    div .nav-title {
+        padding-left: 50px;
+    }
+
+    .splash ul {
+        padding-left: 100px;
+    }
+
+    .splash li {
+        padding: 0 12px;
+    }
+
+    .footer ul {
+        margin-right: 80px;
+    }
+
+}

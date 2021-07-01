@@ -35,22 +35,21 @@ body {
 
 .splash-wrapper {
     display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
 }
 
 .splash ul {
     list-style-type: none;
     color: #fff;
     text-align: right;
-    justify-content: flex-end;
-    padding-top: 20px;
-    padding-left: 300px;
 }
 
 .splash li {
     display: inline;
     color: #fff;
     text-align: right;
-    padding: 0 24px;
+    padding: 0px 24px;
 }
 
 .navigation a {
@@ -65,9 +64,8 @@ div .nav-title {
     font-weight: bold;
     font-size: larger;
     text-align: left;
-    justify-content: flex-start;
-    padding-top: 30px;
-    padding-left: 200px;
+    padding-left: 50px;
+    padding-top: 10px;
 }
 
 .page-title {
@@ -177,16 +175,23 @@ div .nav-title {
 
 /*Footer */
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 24px;
+    margin: 0px 144px;
+}
+
 .footer ul {
     list-style-type: none;
+    text-align: right;
     display: inline-block;
-    margin-right: 300px;
 }
 
 .footer li {
     text-align: center;
     display: inline-block;
-    position: relative;
 }
 
 .footer i {
@@ -201,7 +206,6 @@ div .nav-title {
 
 .footer p {
     text-align: left;
-    padding-right: 96px;
 }
 
 /* Media */
@@ -220,8 +224,20 @@ div .nav-title {
         padding: 0 12px;
     }
 
-    .footer ul {
-        margin-right: 80px;
+    .footer {
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .services .box-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-wrapper {
+        flex-direction: column;
+        align-items: center;
     }
 
 }
